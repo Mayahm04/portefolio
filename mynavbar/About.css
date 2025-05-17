@@ -1,0 +1,115 @@
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body
+  {
+      margin : 32px;
+      background-color: #030140;
+  }
+  .navbar ul
+  {
+      list-style-type: none;
+      padding-left: 14px;
+      padding-right: 14px;
+      background-color:#1e1e1e;
+      overflow: hidden; /*important pour que la colour du background apparait*/
+      border-radius: 16px;
+
+      gap:8px;
+      display: inline-block; /*pour ma qu il s etende jusque a la fin de la page */
+
+
+  }
+  .navbar
+  {
+      padding: 10px;
+      gap: 10px;
+      text-align: center; /*pour qu elle soit au centre de la page*/
+  }
+  .navbar a
+  {
+      color:#8552F2;
+      text-decoration: none;
+      font-family: 'Fira Code' , monospace;
+      font-weight: 400;
+
+      display: block;
+      text-align: center;
+  }
+  .navbar li
+  {
+      float: left;
+      padding: 10px;
+      gap:10px;
+  }
+
+  .presentation
+  {
+      font-family: 'Fira Code' , monospace;
+      background-color: #020F59;
+      border-radius: 32px;
+      height: 357px;
+      width:1200px ;
+      gap:32px;
+      display: flex;
+      flex-direction: column;
+      margin : 40px auto;
+      box-sizing: border-box;
+      font-weight: normal;
+      position: relative;
+
+
+
+  }
+
+  .description
+  {
+      font-family: 'Fira Code' , monospace;
+      font-weight: 400;
+      color:aliceblue;
+      font-size: 24px;
+      gap : 10px;
+      font-weight: normal;
+      text-align: justify;
+      width: 100%;
+      margin :0;
+  }
+  .abtMe
+  {
+      font-family: 'Fira Code' , monospace;
+      font-weight: 400;
+      color:#8552F2;
+      font-size: 24px;
+      gap : 10px;
+      font-weight: normal; 
+      text-align: center;
+  }
+
+  .texts
+  {
+    gap: 10px;
+    padding: 24px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  img
+  {
+  clip-path: ellipse(50% 30%);
+  height: 270px;
+  display: block;
+  object-fit: cover;
+  }
+  .monimage
+  {
+    position: absolute;
+    bottom: 220px;
+    left: -15px;
+  }
