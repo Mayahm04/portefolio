@@ -1,0 +1,135 @@
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body
+    {
+        margin : 32px;
+        background-color: #030140;
+    }
+    .navbar ul
+    {
+        list-style-type: none;
+        padding-left: 14px;
+        padding-right: 14px;
+        background-color:#1e1e1e;
+        overflow: hidden; /*important pour que la colour du background apparait*/
+        border-radius: 16px;
+        gap:8px;
+        display: inline-block; /*pour ma qu il s etende jusque a la fin de la page */
+
+
+    }
+
+    .navbar
+    {
+        padding: 10px;
+        gap: 10px;
+        text-align: center; /*pour qu elle soit au centre de la page*/
+    }
+    .navbar a
+    {
+        color:#8552F2;
+        text-decoration: none;
+        font-family: 'Fira Code' , monospace;
+        font-weight: 400;
+        display: block;
+        text-align: center;
+    }
+    .navbar li
+    {
+        float: left;
+        padding: 10px;
+        gap:10px;
+    }
+
+    .cards
+    {
+      justify-content: center;   
+      display: grid;
+      grid-template-columns: repeat(2,350px);
+      gap:12px ;
+      grid-auto-rows: auto;
+      padding: 16px;
+      max-width: 1200px;          /* ou la largeur que tu souhaites */
+      margin: 40px auto;          /* centre horizontalement et espace vertical */
+      box-sizing: border-box;
+      font-family: 'Fira Code' , monospace;
+      color:white;
+      font-size: 16px;
+
+
+    }
+    .card
+    {
+    background-color: #021373;
+    border-radius: 32px;
+    padding : 18px;
+    gap :20px;
+      width: 300px;          /* largeur fixe */
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      font-weight: normal;
+      position: relative;
+      margin :0;
+
+    }
+
+    .titreProjet
+    {
+        font-weight: bold;
+    }
+
+    .imgProjet
+    {
+    border-radius: 32px;
+    display: block;
+    object-fit: cover;
+    width:282px ;
+    height: 230px;
+      width: 100%;           /* prend la largeur de la carte */
+
+    }
+
+
+
+    .lienGithub
+    {
+      list-style-type: none;
+      color: white;
+      text-decoration: none;
+
+    }
+
+    .buttoncheck {
+      display: flex;
+      flex-direction: column;
+      align-items: center;    /* centre horizontalement si besoin */
+      margin: 0;
+    }
+
+    .checkMoreProjects {
+      display: inline-flex;    
+      align-items: center;      
+      gap: 8px;                
+      background-color: #1e1e1e;
+      font-family: 'Fira Code', monospace;
+      border-radius: 10px;
+      padding: 10px 16px;       
+      color: white;
+      border: none;             
+      cursor: pointer;
+    }
+
+    .icone {
+      width: 24px;
+      height: 24px;
+      display: block;
+    }
+
+

@@ -1,0 +1,49 @@
+
+
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+        body
+        {
+            margin : 32px;
+            background-color: #030140;
+        }
+        .navbar ul
+        {
+            list-style-type: none;
+            padding-left: 14px;
+            padding-right: 14px;
+            background-color:#1e1e1e;
+            overflow: hidden; /*important pour que la colour du background apparait*/
+            border-radius: 16px;
+
+            gap:8px;
+            display: inline-block; /*pour ma qu il s etende jusque a la fin de la page */
+
+
+        }
+        .navbar
+        {
+            padding: 10px;
+            gap: 10px;
+            text-align: center; /*pour qu elle soit au centre de la page*/
+        }
+        .navbar a
+        {
+            color:#8552F2;
+            text-decoration: none;
+            font-family: 'Fira Code' , monospace;
+            font-weight: 400;
+
+            display: block;
+            text-align: center;
+        }
+        .navbar li
+        {
+            float: left;
+            padding: 10px;
+            gap:10px;
+        }
